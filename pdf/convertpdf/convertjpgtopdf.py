@@ -4,9 +4,9 @@ import sys
 from PIL import Image 
 
 if __name__=='__main__':
-    output_Folder = '/home/satoshi/lab/python-tools/pdf/convertpdf/output/ATAIT' #sys.argv[0] + '.pdf'
-    jpg_Folder = '/mnt/c/Users/satos/OneDrive/ritslab/2021-M2/Conference/ATAIT-tsldm/'
-    png_folder = "/mnt/c/Users/satos/OneDrive/ritslab/2021-M2/Conference/ATAIT-tsldm/" #sys.argv[1]
+    output_Folder = '/home/satoshi/lab/python-tools/pdf/convertpdf/output/' #sys.argv[0] + '.pdf'
+    jpg_Folder = '/home/satoshi/satoshi/OneDrive/ritslab/2021-M2/Conference/ATAIT-tsldm/'
+    png_folder = "/home/satoshi/satoshi/OneDrive/ritslab/2021-M2/Conference/ATAIT-tsldm/" #sys.argv[1]
     extention = '.jpg'
     png_file = [j for j in os.listdir(png_folder)if j.endswith(extention)]
     print( png_file )
